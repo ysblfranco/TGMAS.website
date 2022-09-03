@@ -6,16 +6,16 @@ $subject = $_POST['subject'];
 $message = $_POST['message'];
 
 
-$email_form = 'tigergenmanpower.com';
+$email_form = 'ysblfranco.github.io/tigergen.website';
 
-$email_subject = 'New Form Submission';
+$email_subject = 'Tigergen Form Submission';
 
-$email_body = "User Name: $name.\n".
-                "User Email: $visitor_email.\n".  
+$email_body = "Name: $name.\n".
+                "Email: $visitor_email.\n".  
                 "Subject: $subject.\n". 
-                "User Message: $message.\n";                
+                "Message: $message.\n";                
                 
-$to = 'tigergenmanpower@yahoo.com';
+$to = 'ysblfranco@gmail.com';
 
 $headers = "From: $email_from \r\n";
    

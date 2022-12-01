@@ -2807,6 +2807,8 @@ section .home4 {
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .cases-link h2 {
@@ -2915,3 +2917,43 @@ section .home4 {
     transition: all 0.3s ease;
 }
 
+
+
+
+
+@media screen and (max-width: 750px) {
+    .cases-link {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        text-align-last: center;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+    .footernot p {
+        width: 400px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        text-align-last: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .footernot p {
+        font-size: .8rem;
+        width: 350px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        text-align-last: center;
+        text-align: center;
+    }
+}

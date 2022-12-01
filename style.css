@@ -1821,7 +1821,7 @@ section .home2 {
 }
 
 
-.contact2 .contactRight .fas {
+.contact2 .contactRight .fa {
     font-size: 30px;
     color: var(--red);
     margin-right: 30px;
@@ -2056,7 +2056,7 @@ section .home2 {
         height: auto;
     }
 
-    .contact2 .contactRight div .fas {
+    .contact2 .contactRight div .fa {
         font-size: 20px;
     }
 

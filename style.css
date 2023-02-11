@@ -315,6 +315,9 @@ html {
 
 /* About Section */
 
+
+
+
 section {
     padding: 10px 0 8rem 0;
 }
@@ -455,6 +458,9 @@ section {
 
 /* Services Section */
 
+.smax-width {
+    background: black;
+}
 .services {
     background: var(--darkgrey);
     display: flex;
@@ -507,10 +513,10 @@ section {
 
 .services__container {
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 43% 57%;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
-    padding: 1rem 100px 8rem 100px;
+    padding: 1rem 30px 3rem 30px;
     background-color: var(--darkgrey);
 }
 
@@ -529,11 +535,11 @@ section {
     margin-bottom: 25px;
     line-height: 130%;
     font-family: 'Ubuntu', sans-serif; 
-    padding-right: 30px;
+    padding-right: 20px;
 }
 
 .services__container .left p {
-    padding-right: 80px;
+    padding-right: 60px;
     font-size: 13px;
     font-weight: 400;
     color: var(--offwhite);
@@ -554,7 +560,6 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    padding-bottom: 20px;
 }
 
 
@@ -577,7 +582,7 @@ section {
 }
 
 .service9 {
-    padding: 2.5rem 1.5rem 0 1.5rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
     background: var(--darkblue);
     border-radius: 6px;
 }
@@ -1430,7 +1435,7 @@ section .home2 {
 
 .home2 .max-width2 {
     max-width: 1300px;
-    padding: 8rem 70px 1rem 70px;
+    padding: 8rem 0 1rem 0;
     align-items: center;
     justify-content: center;
 }
@@ -1492,8 +1497,29 @@ section .home2 {
 }
 
 
+.max-width2 {
+    max-width: 1400px;
+    padding: 0 0px;
+    margin: auto;
+}
 
+.max-width3 {
+    max-width: 1400px;
+    padding: 0 0px;
+    margin: auto;
+}
 
+.max-width4 {
+    max-width: 1400px;
+    padding: 0 0px;
+    margin: auto;
+}
+
+.max-width5 {
+    max-width: 1400px;
+    padding: 0 0px;
+    margin: auto;
+}
 
 .historyicon {
     font-size: 135px;
@@ -1679,7 +1705,7 @@ section .home2 {
 }
 
 .service9 {
-    padding: 2.5rem 1.5rem 0 1.5rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
     background: var(--darkblue);
     border-radius: 6px;
 }
@@ -1724,12 +1750,22 @@ section .home2 {
 
 
 
+.cmax-width {
+    background: black;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
+.max-width1 {
+    max-width: 1300px;
+    padding: 0 0;
+    margin: auto;
+}
 
 .contact2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 6rem 70px 1rem 70px;
+    padding: 1.7rem 40px 0rem 40px;
     background: var(--darkgrey);
     text-align: left;
     font-family: 'Poppins', sans-serif;  
@@ -1737,11 +1773,11 @@ section .home2 {
 }
 
 .contact2 .contactLeft {
-    padding: 1rem 50px 1rem 50px;
+    padding: 1rem 0px 1rem 0px;
 }
 
 .contact2 .contactLeft h2 {
-    font-size: 60px;
+    font-size: 58px;
     font-weight: 500;
     color: white;
     margin-bottom: 25px;
@@ -1804,12 +1840,11 @@ section .home2 {
     display: flex;
     flex-direction: row;
     grid-template-rows: 1fr;
-    row-gap: 1.5rem;
+    row-gap: 2rem;
+    margin-bottom: 10px;
     align-items: left;
     justify-content: left;
     text-align: left;
-    height: 15vh;
-    margin-bottom: 10px;
     background: var(--darkgrey);
 }  
 
@@ -1937,7 +1972,7 @@ section .home2 {
     .contact2 {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 4rem 70px 1rem 70px;
+        padding: 2rem 70px 1rem 70px;
     }
     
     .contact2 .contactLeft h2 {
@@ -2040,7 +2075,7 @@ section .home2 {
     }
 
     .contact2 {
-        padding: 6rem 10px 1rem 10px;
+        padding: 4rem 5px 1rem 5px;
     }
 
     .contact2 .contactLeft {
@@ -2139,6 +2174,10 @@ section .home2 {
 }
 
 @media (max-width: 388px) {
+    .contact2 {
+        padding: 3rem 0 1rem 0;
+    }
+
     .contact2 .contactRight div h3 {
         font-size: 14px;
     }
@@ -2563,13 +2602,13 @@ section .home3 {
     }
 
     .service9 {
-        padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+        padding: 2rem 1.5rem 2rem 1.5rem;
     }
 }
 
 @media (max-width: 796px) {
     .services__container {
-        padding: 1rem 70px 10rem 70px;
+        padding: 1rem 30px 2rem 30px;
     }
 
     .service__title {
@@ -2607,7 +2646,7 @@ section .home3 {
 
 @media (max-width: 555px)  {
     .services__container {
-        padding: 1rem 30px 10rem 30px;
+        padding: 1rem 0 2rem 0;
     }
 
     .services__container .right {
